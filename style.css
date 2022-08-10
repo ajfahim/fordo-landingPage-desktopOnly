@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.container-fluid {
+	background-color: #003579;
+	padding: unset;
+}
+.logo-container {
+	height: auto;
+	background-color: #0049a6;
+	padding: 6rem;
+	display: flex;
+	justify-content: flex-end;
+}
+/* .btncustom {
+  color: white;
+}
+.btncustom:hover {
+  color: white;
+} */
+.custom-button {
+	min-width: 133px;
+}
+.btn {
+	background-color: #0057c7;
+	border: none;
+}
+.btn:hover {
+	background-color: #0057c7;
+	border: none;
+}
+.location {
+	background-color: #d3e7ff !important;
+}
+.primary-color {
+	color: #0049a6;
+}
+.primary-bg-color {
+	background-color: #0049a6;
+}
+.location-input::placeholder {
+	color: #0049a6 !important;
+}
+.searchs-input::placeholder {
+	color: #707070 !important;
+}
+.card-bg {
+	background-color: #f1f7ff;
+}
+.top-service-header {
+	color: #525252;
+}
+
+.img-clip {
+	clip-path: polygon(0 0, 80% 0, 72% 100%, 0% 100%);
+}
+.order-btn {
+	color: #003f8e;
+	background-color: #d3e7ff;
+	padding: 10px 25px;
+	border-radius: 10px;
+	border: none;
+	margin: 1rem 0;
+	font-weight: 500;
+	font-size: 2rem;
+}
+.font-weignt-custom {
+	font-weight: 500;
+	font-size: 2rem;
+}
+.font-weignt-custom-lg {
+	font-weight: 700;
+	font-size: 3.5rem;
+}
